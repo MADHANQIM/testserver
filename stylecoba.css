@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    position: relative; 
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 360px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #00b3e6;
+    padding: 16px;
+    color: white;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 12px;
+}
+
+.welcome {
+    flex-grow: 1;
+}
+
+.position {
+    font-size: 12px;
+}
+
+.profile-picture img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.attendance-info {
+    background-color: #e6ffe6;
+    padding: 16px;
+    text-align: center;
+    color: #333;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.time {
+    color: green;
+    margin-top: 4px;
+}
+
+.check-in-out {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 12px;
+}
+
+.check-in, .check-out {
+    background-color: #d9f2d9;
+    border-radius: 8px;
+    padding: 8px;
+    width: 45%;
+}
+
+.image-section {
+    padding: 16px;
+    text-align: center;
+}
+
+.image-section img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00b3e6;
+    padding: 12px 0;
+}
+
+.nav-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.content {
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    padding-top: 20px; 
+    color: #333; 
+}
